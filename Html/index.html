@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSSVarEditor</title>
+    <link rel="stylesheet" href="../Stylesheets/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="headingContainer">
+        <p id="heading">UPDATE CSS VARIABLES WITH JS</p>
+      </div>
+      <div id="parameters">
+        <div>
+          <label for="spacing">Spacing</label>
+          <input type="range" id="spacing" max="50"/>
+        </div>
+        <div>
+          <label for="blur">Blur</label>
+          <input type="range" id="blur" max="8"/>
+        </div>
+        <div>
+          <label for="baseColor">Base Color</label>
+          <input type="color" id="baseColor" />
+        </div>
+        <div>
+          <label for="rotate">Rotate</label>
+          <input type="range" id="rotate" max="360" />
+        </div>
+        <div>
+          <label for="radius">Radius</label>
+          <input type="range" id="radius"  max="50"/>
+        </div>
+      </div>
+      <div id="imageContainer">
+        <div id="image">
+          <img src="../Images/man.jpg"  id="img"/>
+        </div>
+      </div>
+    </div>
+    <script src="../Scripts/script.js"></script>
+  </body>
+</html>
